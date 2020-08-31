@@ -16,8 +16,13 @@ module.exports = {
             userList,
         })
     },
+    
     indexv2(req,res){
         res.render('admin/index/index_v2')
+    },
+
+    welcome(req,res){
+        res.render('admin/index/welcome')
     },
 
     async addUser(req,res){
